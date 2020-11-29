@@ -1,2 +1,2 @@
 # Website Project
- A website I created for my second acadmic year in Kent
+ This was a Portoflio Website which I created using Html,CSS and Materialize. It was a wonderful expereince I would encourage you to download project to see it in it's glory!
