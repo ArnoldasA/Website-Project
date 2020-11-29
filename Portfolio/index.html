@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Importing all necessary files- such a icons to use-->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importing materialize.css- a framework-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!--Magnific used to to create dynamic video section-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arnoldas Alencikas Portfolio</title>
+</head>
+<!--Putting down Id of home so that scrollspy can take user to right page -->
+<body id="home" class="scrollspy">
+    <header class="main-header">
+        <div class="primary-overlay">
+            <div class="navbar-fixed">
+                <nav class="transparent">
+                    <div class="container">
+                        <div class="nav-wrapper">
+                            <a href="#home" class="brand-logo">Portfolio</a>
+                            <a href="#" data-activates="mobile-nav" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                  </a>
+                  <!--Main nav-->
+                            <ul class="right hide-on-med-and-down">
+                                <li>
+                                    <a href="#home" class="NavText">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#Projects" class="NavText">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#About" class="NavText">About</a>
+                                </li>
+                                <li>
+                                    <a target ="_blank" href="https://www.facebook.com/alencikasaarnold"><i class="fab fa-facebook-square"></i></a>
+                                </li>
+                                <li>
+                                    <a target ="_blank"  href="https://www.instagram.com/arnoldportfolio/?hl=en"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="skype:blody-line?chat"><i class="fab fa-skype"></i></a>
+                                </li>
+                                <li>
+                                    <a href=" mailto:arnoldasalencikas@gmail.com"><span class="white-text email"><i class="far fa-envelope"></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--Side nav for mobiles and reduced screen-->
+            <ul class="side-nav" id="mobile-nav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="Main Photos/Gradient.jpg">
+                        </div>
+
+                        <span class="black-text center  name">Arnoldas Alencikas Portfolio</span>
+                    </div>
+                </li>
+                <li> <a href="#home" class="waves-effect"> <i class="material-icons">location_city</i> Home</a></li>
+                <li><a href="#Projects" class="waves-effect"> <i class="material-icons">desktop_windows</i>Projects</a></li>
+                <li><a href="#About" class="waves-effect"> <i class="material-icons">perm_identity</i>About</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a class="subheader">Social Media</a></li>
+                <li><a href="https://www.facebook.com/alencikasaarnold"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                <li><a href="https://www.instagram.com/arnoldportfolio/?hl=en"><i class="fab fa-instagram"></i>Instagram</a></li>
+                <li><a href="skype:blody-line?chat"><i class="fab fa-skype"></i>Skype</a></li>
+                <li><a href=" mailto:arnoldasalencikas@gmail.com"><i class="far fa-envelope"></i>Email</a></li>
+
+            </ul>
+
+<!--Landing page, with cliclkable arrow icon to take user down to projects-->
+            <div class="showcase container">
+                <div class="row">
+                    
+                    <div class="  col s12 ">
+                        <h1 class="MainHead" data-aos="zoom-out">Arnoldas Alencikas</h1>
+                        <h2 class="MainHead" data-aos="zoom-in">Web Developer, Programmer and Graphics Designer</h2><br>
+
+                        <br>
+                        <a href="#Projects" class="grey-text">
+                <i  class="material-icons medium scroll-icon" >arrow_drop_down_circle</i>
+                 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!--Rows with boxes containing links to projects with sort descriptions-->
+<section id="Projects" class="scrollspy" class="section-boxes center">
+
+        <div class="row ">
+            <div class="col s15 m6">
+                <div class="card ">
+                    <div class="card-image">
+                        <img src="Main Photos/Arduino.JPG">
+                        <span class="card-title  ">Arduino Project</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Explore my sound reactive Arduino project.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#Aproject " class="grey-text text-darken-2">Go to Arduino Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s15 m6 ">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Main Photos/birkenhopf.JPG">
+                        <span class="card-title">Photographic Portfolio</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Explore through my lens.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#Gallery" class="grey-text text-darken-2">Go to Photographic Portfolio</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s15 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Main Photos/Film.jpg">
+                        <span class="card-title">Film</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Watch a Film created in a team effort.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#Film" class="grey-text text-darken-2">Go to Film Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s15 m6">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="Main Photos/Me.JPG">
+                        <span class="card-title">About me</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Find out more about me.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#About" class="grey-text text-darken-2">Go to about page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!--Arduino project utilizing scrollspy so user can easily navigate to it-->
+
+    <section id="Aproject" class="scrollspy">
+        <header class="Arduino">
+            <div class="content">
+<!--Video uses Magnific pop up, which is called upon button click and calls to youtube video-->
+
+                <h1 class="ArdText" data-aos="zoom-out">Arduino Project</h1>
+                <p class="box"> I was always interested in creating interactive projects, but never quite had a idea on how to do so. However, in my first year of university I learnt about Arduino boards and, upon researching them, I was amazed by the astounding projects that could be created from it.<br><br> This piqued my own curiosity and led to the idea of creating sound reactive LEDs. This was something that had practical uses, as I love listening to music, and seeing it brought to life before me left me in awe.<br> <br> This project allowed me to develop as an indvidual and understand what can be accomplished with a good work ethic and perseverance. <br><br> The project took me one month to finish in total. This was due to waiting for multiple hardware deliveries, my lack of understanding of what tools I needed to have and also learning new skills for the project.<br><br> Overall, I loved what I made and it makes for a great light show.</p>
+                <a href="#videostory" class="buttonM" id="videolink">
+      Watch Video <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
+    </a>
+                <div id="videostory" class="mfp-hide">
+                    <div class="videoWrapper">
+                        <iframe width="854" height="480" src="https://www.youtube.com/embed/enJGMuEiOf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>         
+    </section>
+
+
+<!--Declaring unique id as with each page so scrollspy can navigate to the right page-->
+<!--This section utilises row with boxes to showcase photography- animation also used to give more life to website-->
+
+    <section id="Gallery" class="scrollspy" class="Photography">
+        <div class="container">
+            <div>
+               
+                <h1 class=" PhotoH1 center  " data-aos="zoom-out">Photography</h1>
+                <div class="row">
+                    <div class="col s15 m6">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="Gallery/Camera.jpg">
+                                <span class="card-title"> Camera</span>
+                            </div>
+                            <div class="card-content" data-aos="fade">
+                                <p >I mainly used a Canon camera for all the photos seen at the gallery. However, I did also use a Nikon for one particular photo. The Canon camera was great for shooting photos in the light, and proved wonderful in producing daylight photos. Night shots proved to be more grainy in comparison. As such, I had to lower the ISO and wait on a low shutter speed for quite a while to create certain photos. Overall, the Canon camera was fun to use and was perfect for daylight photography, but harder to use for night shots. </p>
+                            </div>
+                            <div class="card-action">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s15 m6 ">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="Gallery/Idea.jpg">
+                                <span class="card-title">Idea</span>
+                            </div>
+                            <div class="card-content" data-aos="fade">
+                                <p>The idea behind all these photos was to capture my everyday life and what I found to be visually striking at the moment. Some of the interesting aspects of this were the low light photos in which I experimented with light movement through long exposure. This allowed me to create shapes and visuals with light. However, these photos also proved hard to fully capture due to the movement creating grainy shots at times. I especially loved capturing photos of nature in summer, as the photos came out vivid and pleasant to the eye.</p>
+                            </div>
+                            <div class="card-action">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+    </section>
+<!--Materlial boxed reponsive image ensures photos resize correctly and delcaring col s12 m3 tells the images how big they should be on each screen size also materialboxed allows for images to be enlarged.-->
+
+    <section class="section section-gallery">
+        <h4 class="Header center" data-aos="zoom-out">
+            Photo Gallery
+        </h4>
+        <div class="row">
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img"  src="Gallery/dark leaves.jpg" alt=""  >
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/gargoyle.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Heart.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/light.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/lights.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/moon.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Petals.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/rainbow.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Rose.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Sea.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Road.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Stand.jpg" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Forest.JPG" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Abandoned.JPG" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Reflection.JPG" alt="">
+            </div>
+            <div class="col s12 m3">
+                <img class="materialboxed responsive-img" src="Gallery/Petal.JPG" alt="">
+            </div>
+
+        </div>
+    </section>
+<!--Section simply has a reszing video with animated text to explain the video. Video-container being a unique class to materlize which creates reponsive media-->
+
+    <section id="Film">
+        <div class="video-container">
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/bsNBGIkI0xU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </video>
+
+        </div>
+
+        <div class="FilmText" data-aos="zoom-in">
+            <p>This is a short film that I did with a group of two others. The Film was centred around the theme of "The Greatest day". My group and I began by brainstorming ideas, and we found that a mix of all our ideas was best. Our plotline would be centred around a man who has issues with money and wants a quick escape from his life. In the heat of the moment, he has an opportunity to steal money from work and runs away to begin his new life.</p>
+
+            <p>We now needed to come up with how we will handle roles; I took the initiative and began scouting for filming locations. After conferring with my team, we gave roles to each other. I was the actor, my colleague Dan was the Cameraman, and Robert was the director (we all typically had a input here.). The hardest part of filming was getting the scene just right. It's hard to realise how many things can disturb the shot until you get into filming. However, we were persistent and did not give up until we had our perfect film. This meant we all had to make compromises on when we filmed and in what weather conditions we went out. This gave me vital experience, as I learned how to time manage, lead a team, and take the initiative to further the end goal. It was truly a valuable experience. </p>
+        </div>
+
+    </section>
+
+<!--About page -->
+
+    <section id="About" class="scrollspy">
+        <div id="AboutPage">
+            <div id="About-text">
+                <div id="About-text-inner">
+                    <br> <br><br> <br> <br> <br>
+                    <h1 class="AboutH1" data-aos="zoom-out">About me </h1>
+                    <h2 class="AboutH2">Who am I?</h2>
+                    <p id="ParaA">I am Arnoldas Alencikas, born in Lithuania and raised there for the first six years of my life, after which I moved to the UK. <br><br>In the UK, I found my passion for creating content; in the early days of Youtube I would create musical videos based around animation. The feeling of publishing my own content and it being seen made me truly happy, and it gave me sense of accomplishment. <br><br>While exploring the digital world, I was also studying other subjects, such as History. I was fascinated by History and loved learning about ancient cultures, as it made me understand our own world better. <br><br> This eventually led me to enrol in Warwick University, where I was studying Classical Civilisation. However, I found this did not fulfil me. Rather, I knew I needed to go back to my roots and rekindle my love for creation. <br><br> In 2017, I enrolled in Kent university and began studying Digital Arts. I found my true calling here, as I was able to create and develop my ideas. And, once again I feel the same sense of awe and joy from inspiring others and being inspired by creation.</p>
+
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <div id="About-image"></div>
+        </div>
+
+    </section>
+    </main>
+
+
+
+
+    <!--Importing scripts-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+
+
+<!--Jquery code, most code controlling materialize functions and exapnding them, whilst utlising functions such as magnificpopup to make sure the video gets called in correctly-->
+
+    <script> 
+        $(document).ready(function() {
+
+
+
+
+            $('.scrollspy').scrollSpy({
+                scrollOffset: 70
+            });
+
+            $('#videolink').magnificPopup({
+                type: 'inline',
+                midClick: true
+            })
+
+
+
+            //scrollfire
+            const options = [{
+                    selector: '.main-text',
+                    offset: 0,
+                    callback: function(el) {
+                        Materialize.fadeInImage($(el));
+                    }
+                },
+                {
+                    selector: '.navbar-fixed',
+                    offset: 1500,
+                    callback: function() {
+                        $('nav').removeClass('transparent').addClass('black lighten-4 ')
+                    }
+                }
+            ];
+            Materialize.scrollFire(options);
+
+
+            //side nav
+            $('.button-collapse').sideNav({
+           closeOnClick: true
+            });
+
+
+            AOS.init({
+                duration: 1200,
+            });
+
+
+
+        });
+
+    </script>
+</body>
+
+</html>
